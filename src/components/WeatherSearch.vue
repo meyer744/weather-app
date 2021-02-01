@@ -44,7 +44,7 @@ button {
     border-radius: 0px 4px 4px 0px;
     padding: 10px;
     outline: none;
-    width: 2em;
+    width: 4em;
 }
 
 button:hover {
