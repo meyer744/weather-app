@@ -25,6 +25,12 @@ export default {
         return "cloud-showers-heavy";
       } else if (conditions === "rain") {
         return "cloud-rain";
+      }  else if (conditions === "light rain") {
+        return "cloud-rain";
+      } else if (conditions === "moderate rain") {
+        return "cloud-rain";
+      }  else if (conditions === "mist") {
+        return "cloud-rain";
       } else if (conditions === "thunderstorm") {
         return "bolt";
       } else if (conditions === "light snow") {
