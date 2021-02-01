@@ -30,7 +30,6 @@ input {
     border-color: white;
     color: white;
     font-size: 15px;
-    border-right: none;
     border-radius: 4px 0px 0px 4px;
     outline: none;
     box-shadow:inset 0 0 5px 5px rgba(236, 232, 232, 0.247);
@@ -41,6 +40,7 @@ button {
     background-color: transparent;
     border-style: solid;
     border-color: white;
+    border-left: none;
     border-radius: 0px 4px 4px 0px;
     padding: 10px;
     outline: none;
