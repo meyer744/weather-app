@@ -1,8 +1,10 @@
 <template>
 <div class="weather-search">
+    <div>
     <input
     placeholder="search by city or zip" v-model.number="input" 
     @keyup.enter="sendWeatherSearch">
+    </div>
     <button @click="sendWeatherSearch"><font-awesome-icon class="icon-search" icon="search" /></button>
 </div>
 </template>
@@ -24,6 +26,10 @@ export default {
 </script>
 
 <style scoped>
+.weather-search{
+    display: flex;
+    justify-content: center;
+}
 input {
     background-color: transparent;
     border-style: solid;
