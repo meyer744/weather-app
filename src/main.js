@@ -1,10 +1,10 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faSearch, faCloud, faSnowflake, faCloudRain, faCloudSun } from '@fortawesome/free-solid-svg-icons'
+import { faSearch, faCloud, faSnowflake, faCloudRain, faCloudSun, faBolt, faSun, faCloudShowersHeavy } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-library.add(faSearch, faCloud, faSnowflake, faCloudRain, faCloudSun)
+library.add(faSearch, faCloud, faSnowflake, faCloudSun, faBolt, faSun, faCloudRain, faCloudShowersHeavy)
 
 const app = createApp(App)
 

@@ -19,9 +19,20 @@ export default {
       let conditions = this.conditions;
       if (conditions === "snow") {
         return "snowflake";
+      } else if (conditions === "clear sky") {
+        return "sun";
+      } else if (conditions === "shower rain") {
+        return "cloud-showers-heavy";
+      } else if (conditions === "rain") {
+        return "cloud-rain";
+      } else if (conditions === "thunderstorm") {
+        return "bolt";
       } else if (conditions === "light snow") {
         return "snowflake";
-      } else {
+      } else if (conditions === "few clouds") {
+        return "cloud-sun";
+      }    
+      else {
         return "cloud";
       }
     },
