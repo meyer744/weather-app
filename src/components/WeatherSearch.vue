@@ -39,7 +39,7 @@ input {
     border-radius: 4px 0px 0px 4px;
     outline: none;
     box-shadow:inset 0 0 5px 5px rgba(236, 232, 232, 0.247);
-    padding: 10px;
+    padding: 10px 0px 10px 10px;
 }
 
 button {
