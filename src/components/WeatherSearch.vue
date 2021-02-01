@@ -36,17 +36,17 @@ input {
     border-color: white;
     color: white;
     font-size: 15px;
-    border-radius: 4px 0px 0px 4px;
+    border-radius: 4px;
     outline: none;
     box-shadow:inset 0 0 5px 5px rgba(236, 232, 232, 0.247);
-    padding: 10px 0px 10px 10px;
+    padding: 10px;
 }
 
 button {
     background-color: transparent;
     border-style: solid;
     border-color: white;
-    border-radius: 0px 4px 4px 0px;
+    border-radius: 4px;
     padding: 10px;
     outline: none;
     width: 4em;
