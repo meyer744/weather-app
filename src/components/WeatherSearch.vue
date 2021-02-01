@@ -50,6 +50,7 @@ button {
     padding: 10px;
     outline: none;
     width: 4em;
+    margin-left: 6px;
 }
 
 button:hover {
